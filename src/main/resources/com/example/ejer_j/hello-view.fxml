@@ -37,14 +37,11 @@
       </Text>
 
       <!-- Icono para encender/apagar luces -->
-      <ImageView fx:id="imgLuzOn" fitHeight="38.0" fitWidth="40.0" layoutX="37.0" layoutY="114.0" onMouseClicked="#imgLuzOnClicked" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../ejer_j/imagenes/lucesOff.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imgLuzOff" fitHeight="38.0" fitWidth="40.0" layoutX="37.0" layoutY="114.0" onMouseClicked="#imgLuzOffClicked" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
-            <Image url="@../ejer_j/imagenes/lucesOn.png" />
          </image>
       </ImageView>
 
@@ -74,17 +71,14 @@
             <Image url="@../ejer_j/imagenes/colores/colorMoonwalkGrey.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="472.0" layoutY="540.0" onMouseClicked="#miniBiege" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../ejer_j/imagenes/colores/colorPepperWhite.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="566.0" layoutY="540.0" onMouseClicked="#miniMedioNegro" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../ejer_j/imagenes/colores/colorThunderGray.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="652.0" layoutY="540.0" onMouseClicked="#miniNaranja" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../ejer_j/imagenes/colores/colorVolcaninOrange.jpg" />
          </image>

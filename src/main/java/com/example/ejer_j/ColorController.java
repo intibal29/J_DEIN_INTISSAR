@@ -23,7 +23,6 @@ public class ColorController {
     // Variable para controlar el estado de las luces (encendidas o apagadas)
     private boolean lucesEncendidas = false;
 
-    // Métodos para cambiar el color del coche
     @FXML
     public void miniRojo() {
         cambiarColor("/com/example/ejer_j/imagenes/coches/miniBlazingRed.png");
@@ -64,19 +63,14 @@ public class ColorController {
         cambiarColor("/com/example/ejer_j/imagenes/coches/miniVolcaninOrange.png");
     }
 
-    // Método para cambiar la imagen del coche
     private void cambiarColor(String rutaImagen) {
-        Image imagenCoche = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/example/ejer_j/imagenes/autoLuz.png")));
         foto.setImage(imagenCoche);
     }
 
-    // Métodos para alternar el estado de las luces
     @FXML
     public void imgLuzOffClicked() {
-        // Si las luces están apagadas, encenderlas
         if (!lucesEncendidas) {
             lucesEncendidas = true;
-            luz.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/example/ejer_j/imagenes/lucesOn.png"))));
             imgLuzOff.setVisible(false); // Esconder el botón de "luces apagadas"
             imgLuzOn.setVisible(true); // Mostrar el botón de "luces encendidas"
         }
@@ -84,10 +78,8 @@ public class ColorController {
 
     @FXML
     public void imgLuzOnClicked() {
-        // Si las luces están encendidas, apagarlas
         if (lucesEncendidas) {
             lucesEncendidas = false;
-            luz.setImage(null); // Apagar las luces (sin imagen)
             imgLuzOn.setVisible(false); // Esconder el botón de "luces encendidas"
             imgLuzOff.setVisible(true); // Mostrar el botón de "luces apagadas"
         }
