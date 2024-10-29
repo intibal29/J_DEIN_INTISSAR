@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="732.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ejer_j.ColorController">
+   <children>
+      <!-- Imagen del coche principal -->
+      <ImageView fx:id="foto" fitHeight="444.0" fitWidth="747.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/coches/miniBlazingRed.png" />
+         </image>
+      </ImageView>
+
+      <!-- Título -->
+      <Text fill="WHITE" layoutX="449.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONFIGURA TU MINI COOPER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+
+      <!-- Logo de MINI -->
+      <ImageView fitHeight="85.0" fitWidth="135.0" layoutX="79.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/cooperLogo.png" />
+         </image>
+      </ImageView>
+
+      <!-- Texto para seleccionar color -->
+      <Text fill="WHITE" layoutX="278.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selecciona tu color favorito">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+
+      <!-- Icono para encender/apagar luces -->
+      <ImageView fx:id="imgLuzOn" fitHeight="38.0" fitWidth="40.0" layoutX="37.0" layoutY="114.0" onMouseClicked="#imgLuzOnClicked" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../ejer_j/imagenes/lucesOn.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLuzOff" fitHeight="38.0" fitWidth="40.0" layoutX="37.0" layoutY="114.0" onMouseClicked="#imgLuzOffClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/lucesOff.png" />
+         </image>
+      </ImageView>
+
+      <!-- Imagen de las luces encendidas -->
+      <ImageView fx:id="luz" fitHeight="444.0" fitWidth="747.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../ejer_j/imagenes/autoLuz.png" />
+         </image>
+      </ImageView>
+
+      <!-- Botones de colores para cambiar el coche -->
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="20.0" layoutY="540.0" onMouseClicked="#miniRojo" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorBlazingRed.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="98.0" layoutY="540.0" onMouseClicked="#miniAzul" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorElectricBlue.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="187.0" layoutY="540.0" onMouseClicked="#miniBlueMarin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorLapisluxuryBlue.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="288.0" layoutY="540.0" onMouseClicked="#miniNegro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorMidnightBlack.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="65.0" layoutX="377.0" layoutY="540.0" onMouseClicked="#miniGrey" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorMoonwalkGrey.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="468.0" layoutY="540.0" onMouseClicked="#miniBiege" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorPepperWhite.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="554.0" layoutY="540.0" onMouseClicked="#miniMedioNegro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorThunderGray.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="641.0" layoutY="540.0" onMouseClicked="#miniNaranja" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ejer_j/imagenes/colores/colorVolcaninOrange.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

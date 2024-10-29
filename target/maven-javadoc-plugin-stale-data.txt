@@ -1,0 +1,46 @@
+@options
+@packages
+@argfile
+--class-path
+'C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-controls/22.0.1/javafx-controls-22.0.1.jar;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-graphics/22.0.1/javafx-graphics-22.0.1.jar;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-base/22.0.1/javafx-base-22.0.1.jar;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-fxml/22.0.1/javafx-fxml-22.0.1.jar'
+--module-path
+'C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-fxml/22.0.1/javafx-fxml-22.0.1-win.jar;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-graphics/22.0.1/javafx-graphics-22.0.1-win.jar;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-base/22.0.1/javafx-base-22.0.1-win.jar;C:/Users/ciudadjardin/IdeaProjects/Ejer_J/target/classes;C:/Users/ciudadjardin/.m2/repository/org/openjfx/javafx-controls/22.0.1/javafx-controls-22.0.1-win.jar'
+--patch-module
+com.example.ejer_j='C:/Users/ciudadjardin/IdeaProjects/Ejer_J/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'23'
+--module-source-path
+'C:/Users/ciudadjardin/IdeaProjects/Ejer_J/target/site/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ciudadjardin/IdeaProjects/Ejer_J/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Ejer_J 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Ejer_J 1.0-SNAPSHOT API'
+com.example.ejer_j
+'C:/Users/ciudadjardin/IdeaProjects/Ejer_J/src/main/java/module-info.java'
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\allclasses-index.html = 1730237049610
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\allpackages-index.html = 1730237049613
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\element-list = 1730237049536
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\help-doc.html = 1730237049642
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\index-all.html = 1730237049632
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\index.html = 1730237049637
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\member-search-index.js = 1730237049619
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\module-search-index.js = 1730237049615
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\overview-tree.html = 1730237049591
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\package-search-index.js = 1730237049616
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\search.html = 1730237049635
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\tag-search-index.js = 1730237049620
+C:\Users\ciudadjardin\IdeaProjects\Ejer_J\target\site\apidocs\type-search-index.js = 1730237049617
